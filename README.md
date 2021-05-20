@@ -13,6 +13,7 @@ Esta aplicación facilita la creación de archivos de entrada del programa [PopA
 *El resultado final es un archivo nexus (.nex) con los bloques necesarios para elaborar las redes de haplotipos en PopArt.*
   
 Desarrollada en `R` con los paquetes `seqinr`, `ape`, y `geosphere` en code `Shiny`.
+ 
 Por *Andrés F. Sánchez Restrepo*, 2021.
  
 ### Referencias
