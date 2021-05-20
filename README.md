@@ -9,9 +9,9 @@ Esta aplicación facilita la creación de archivos de entrada para el programa [
 - *Nota 1*: las coordenadas de la polaciones (o traits) son calculadas como el centroide o el punto medio.
 - *Nota 2*: esta aplicación está hecha para casos particulares y podría generar erroes para casos no probados durante su desarrollo. Por lo tanto debe revisar detalladamente si el archivo generado contiene la estructura esperada.
 - *Nota 3*: esta versión no incorpora la posibilidad de añadir un bloque con los árboles para inferir redes de parsimonia ancestral.
-
-*El resultado final es un archivo nexus (.nex) con los bloques necesarios para elaborar las redes de haplotipos en PopArt.*
  
+*El resultado final es un archivo nexus (.nex) con los bloques necesarios para elaborar las redes de haplotipos en PopArt.*
+  
 Desarrollada en `R` con los paquetes `seqinr`, `ape`, y `geosphere` en code `Shiny`.
 Por *Andrés F. Sánchez Restrepo*, 2021.
  
