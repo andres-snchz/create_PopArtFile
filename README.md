@@ -8,7 +8,7 @@ Esta aplicación de `Shiny` facilita la creación de archivos de entrada del pro
  
 - *Nota 1*: las coordenadas de las polaciones (o *traits*) son calculadas como el centroide o el punto medio.
 - *Nota 2*: la aplicación esta hecha para casos particulares y podría generar errores para casos no probados durante su desarrollo. Por lo tanto, se debe revisar detalladamente si el archivo generado contiene la estructura esperada.
-- *Nota 4*: en caso de no querer ingresar las coordenadas se deben incluir las columnas lat y lon vacías, de los contrario generará un error. Luego de generado el archivo deberá eliminar el bloque GeoTags.
+- *Nota 4*: en caso de no querer ingresar las coordenadas se deben incluir las columnas lat y lon vacías, de lo contrario generará un error. Luego de generado el archivo deberá eliminar el bloque GeoTags.
 - *Nota 3*: esta versión no incorpora la posibilidad de añadir un bloque con los árboles para inferir redes de parsimonia ancestral (pendiente a incluir).
 
  
