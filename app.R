@@ -69,7 +69,9 @@ ui <- fluidPage(
         em("Nota 2"), ": esta aplicación está hecha para casos particulares y podría generar erroes para casos no probados durante su desarrollo. ",
         "Por lo tanto debe revisar detalladamente si el archivo generado contiene la estructura esperada."),
       p(style="text-align: justify;",
-        em("Nota 3"), ": esta versión no incorpora la posibilidad de añadir un bloque con los árboles para inferir redes de parsimonia ancestral."),
+        em("Nota 3"), ": en caso de no querer ingresar las coordenadas se deben incluir las columnas lat y lon vacías, de los contrario generará un error. Luego de generado el archivo deberá eliminar el bloque GeoTags."),
+      p(style="text-align: justify;",
+        em("Nota 4"), ": esta versión no incorpora la posibilidad de añadir un bloque con los árboles para inferir redes de parsimonia ancestral."),
       headerPanel(""),
       downloadButton("downloadData", "Descargar archivo"),
       helpText("El resultado final es un archivo nexus (.nex) con los bloques necesarios para elaborar las redes
