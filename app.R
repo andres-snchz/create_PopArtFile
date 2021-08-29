@@ -46,8 +46,8 @@ ui <- fluidPage(
         "4) El archivo estará listo para descargar luego de que carquen los dos archivos"),
       headerPanel(""),
       helpText("Desarrollada en ", code("R"), " con los paquetes", code("seqinr"), code("ape"), " y ", code("geosphere"), " en ", code("Shiny"), "."),
-      helpText("Por Andrés F. Sánchez Restrepo. ", paste(format(Sys.Date(), "%Y")), "."),
-      helpText("Código disponible en ", shiny::a(href = "https://github.com/andres-snchz/create_PopArtFile", "Github", .noWS = "outside"))
+      helpText("Código disponible en ", shiny::a(href = "https://github.com/andres-snchz/create_PopArtFile", "Github", .noWS = "outside")),
+      helpText("Andrés Sánchez", paste(format(Sys.Date(), "%Y")),"andres-snchz/create_PopArtFile: create PopArtFile (v1.0). Zenodo. https://doi.org/10.5281/zenodo.5334306")
       # helpText(tags$a("Ejemplo archivo .csv", href="trait_data.csv")),
       # helpText(tags$a("Ejemplo archivo .fasta", href="lobicornis_Mit.fasta"))
     ),
