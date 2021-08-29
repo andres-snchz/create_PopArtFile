@@ -23,7 +23,12 @@ Por *Andrés F. Sánchez Restrepo*, 2021.
 ### Referencias
 Leigh, JW, Bryant D (2015). PopART: Full-feature software for haplotype network construction. Methods Ecol Evol 6(9):1110–1116.
 
----
+--- 
+ 
+> This app is available at the following url [Create PopART file](https://andres-snchz.shinyapps.io/create_popartfile/)
+
+> This repository contains the shiny code and related `R` function.
+
 This `Shiny` app facilitates the creation of [PopART](http://popart.otago.ac.nz/index.shtml) input files (Population Analysis with Reticulate Trees; Leigh & Bryant 2015) for the reconstruction of haplotype networks. To use it, a fasta file with the sequences and a table with the population or trait information are needed. The table must contain at least four columns named: **code** (unique name of the sequences), **traits** (population names or *traits*), **lon** (longitude in decimal degrees), **lat** (latitude in decimal degrees). The sequence names must match those in the code column of the table. Please cite the [related references](http://popart.otago.ac.nz/howtocite.shtml).  
 
 - Note 1*: the coordinates of the poles (or *traits*) are calculated as the centroid or the midpoint.
